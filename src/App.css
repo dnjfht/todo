@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+body {
+  background: rgb(142, 127, 190);
+  background: linear-gradient(
+    90deg,
+    rgba(142, 127, 190, 0.6074074074074074) 5%,
+    rgba(247, 189, 224, 0.6162962962962963) 100%
+  );
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  color: rgba(0, 0, 0, 0.9);
+  border-radius: 30px;
+  font-family: "Gowun Batang", serif;
+  width: 90%;
+  min-height: 90vh;
+  max-width: 1650px;
+  min-width: 800px;
+  padding: 1rem 4rem 4rem 4rem;
+  margin: 2rem auto;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todo-lists {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  justify-content: space-between;
 }

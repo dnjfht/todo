@@ -1,0 +1,40 @@
+.addform__container {
+  padding: 2rem;
+  margin: 2rem 0;
+  background: rgb(89, 72, 144);
+  background: linear-gradient(
+    90deg,
+    rgba(89, 72, 144, 0.6074074074074074) 5%,
+    rgba(162, 125, 147, 0.6162962962962963) 100%
+  );
+}
+
+.addform {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addform__label {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: white;
+}
+
+.addform__input {
+  background: rgb(216, 211, 232);
+  background: linear-gradient(
+    90deg,
+    rgba(216, 211, 232, 0.7598389697675946) 5%,
+    rgba(255, 255, 255, 0.5469538157059699) 100%
+  );
+  font-family: "Gowun Batang", serif;
+  border: none;
+  padding: 0.8rem;
+  width: 70%;
+  font-size: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 8px;
+  outline: none;
+}

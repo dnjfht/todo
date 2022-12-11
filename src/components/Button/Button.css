@@ -1,0 +1,36 @@
+.btn {
+  color: rgba(141, 115, 197, 0.9);
+  font-family: "Gowun Batang", serif;
+  background: rgb(128, 114, 176);
+  background: linear-gradient(
+    90deg,
+    rgba(128, 114, 176, 0.23883056640625) 5%,
+    rgba(234, 202, 224, 0.269642891336222) 100%
+  );
+
+  box-shadow: 14px 18px 20px -7px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 14px 18px 20px -7px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 14px 18px 20px -7px rgba(0, 0, 0, 0.23);
+
+  border-radius: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 29px;
+  margin: 0 0.5rem;
+  padding: 0.8rem 4rem;
+  position: relative;
+  text-align: center;
+
+  outline: none;
+  border: none;
+
+  color: #fff;
+}
+
+.btn:hover {
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
