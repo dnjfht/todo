@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import AddForm from "./components/AddForm/AddForm";
 import Header from "./components/Header/Header";
-import TodoList from "./TodoList/TodoList";
+import TodoList from "./components/TodoList/TodoList";
 import { v4 as uuidv4 } from "uuid";
 
 export default function App() {
